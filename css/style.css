@@ -1,0 +1,44 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;	
+}
+
+@media(min-width:320px){
+.pic-2{
+	display:none;
+}	
+.pic-3{
+	display:none;
+}	
+}
+
+
+
+@media(min-width:960px){
+.pic-1{
+	position:relative;
+	z-index:20;
+}
+.pic-2{
+	position:absolute;
+	top:50px;
+	left:0;
+	display:block;
+}
+.pic-3{
+	position:absolute;
+	top:30%;
+	left:35%;
+	z-index:100;
+	display:block;
+}
+}
+.icon>img{
+	padding:10px;
+	border-radius:50%;
+	background-color: #E3DEE1;
+	border:2px solid #E3DEE1;
+	margin-right:10px;
+}
+	
